@@ -10,7 +10,7 @@ public class Parser {
 
         Foo foo = new Foo();
 
-        System.out.println(foo.getClass().getMethod("executeFirstTask").getAnnotation(FirstTask.class).value());
+        System.out.println(foo.getClass().getMethod(args[0]).getAnnotation(SecondTask.class).value());
 
     }
 }
