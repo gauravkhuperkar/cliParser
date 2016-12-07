@@ -1,9 +1,9 @@
-package annotations;
+package com.tw.cliparser.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SecondParam {
-    String value();
+public @interface Command {
+    String name();
 }
