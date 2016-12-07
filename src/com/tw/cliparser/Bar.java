@@ -1,7 +1,7 @@
 package com.tw.cliparser;
 
-import com.tw.cliparser.annotations.Command;
-import com.tw.cliparser.annotations.Execute;
+import annotations.Command;
+import annotations.Execute;
 
 @Command(name = "bar")
 public class Bar {

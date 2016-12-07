@@ -1,4 +1,4 @@
-package com.tw.cliparser.annotations;
+package annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
